@@ -31,7 +31,7 @@ from blog import views as blog_views
 
 urlpatterns = [
   ##  path('', blog_views.my_blog, name='home'),
-   path('', blog_views.PostList.as_view(), name='home'), # Route for the homepage 
-   path('blog/', include('blog.urls')), # Include blog app URLs 
-   path('admin/', admin.site.urls),
+    path("", include("blog.urls"), name="blog-urls"),
+    # path('blog/', include('blog.urls')), # Include URLs from the blog app
+    path('admin/', admin.site.urls),
 ]

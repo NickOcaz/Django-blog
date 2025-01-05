@@ -5,8 +5,9 @@ from .models import Post
 # from .models import Post
 
 class PostList(generic.ListView):
-    model = Post
-    template_name = 'blog/post_list.html'
+     queryset = Post.objects.filter(status=1)
+    # #model = Post
+    # template_name = 'blog/post_list.html'
 
 
 # def post_list(request):
