@@ -23,11 +23,12 @@ Including another URLconf
 #    path('admin/', admin.site.urls),
 #]
 
-from django.contrib import admin
-from django.urls import path, include
-from blog.views import my_blog
+from django.contrib import admin 
+from django.urls import path, include 
+from blog import views as blog_views
 
 urlpatterns = [
+    path('', blog_views.my_blog, name='home'),
     path('blog/', include('blog.urls')),
     path('admin/', admin.site.urls),
 ]
