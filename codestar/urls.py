@@ -30,8 +30,12 @@ from blog import views as blog_views
 # from blog import views as blog_views
 
 urlpatterns = [
-  ##  path('', blog_views.my_blog, name='home'),
-    path("", include("blog.urls"), name="blog-urls"),
-    # path('blog/', include('blog.urls')), # Include URLs from the blog app
+##  path('', blog_views.my_blog, name='home'),
     path('admin/', admin.site.urls),
-]
+    # path('blog/', include('blog.urls')),
+    path('summernote/', include('django_summernote.urls')), # Include Summernote URLs
+    path("", include("blog.urls"), name="blog-urls"),
+    ]
+
+
+
