@@ -33,7 +33,8 @@ if not SECRET_KEY:
     raise ValueError("The SECRET_KEY environment variable is not set.")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+DEBUG = 'True'
+# DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
 
@@ -52,9 +53,7 @@ INSTALLED_APPS = [
 ]
 ## AI HELP[ER
 # Add this line to set the STATIC_ROOT
-STATIC_URL = '/static/' ## AI FIX
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' ##AI FIX
+
 ## END HELPER
 
 
@@ -130,6 +129,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+STATIC_URL = '/static/' ## AI FIX
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
+## STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' ##AI FIX
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
