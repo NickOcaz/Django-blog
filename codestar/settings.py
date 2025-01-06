@@ -26,6 +26,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ.get("SECRET_KEY")
+
 # check if secret key is set
 if not SECRET_KEY:
     raise ValueError("The SECRET_KEY environment variable is not set.")
@@ -108,7 +109,7 @@ DATABASES = {
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://github.com/NickOcaz/django-blog",
+    "https://*.codeinstitute-ide.net/",
     "https://*.herokuapp.com"
 ]
 
