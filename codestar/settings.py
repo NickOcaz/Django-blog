@@ -59,7 +59,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'whitenoise.middleware.WhiteNoiseMiddleware', ## AI FIX
+    'whitenoise.middleware.WhiteNoiseMiddleware', 
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -131,7 +131,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 STATIC_URL = '/static/' ## AI FIX
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
-## STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage' ##AI FIX
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
