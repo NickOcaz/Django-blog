@@ -29,9 +29,8 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # check if secret key is set
 
-SECRET_KEY ='ejkd0349ujfdlsfj49e34'
-## if not SECRET_KEY:
-##    raise ValueError("The SECRET_KEY environment variable is not set.")
+if not SECRET_KEY:
+    raise ValueError("The SECRET_KEY environment variable is not set.")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
