@@ -1,0 +1,305 @@
+[33mcommit 2531927c54d77bda3b6db7c0469525d8d9095929[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Tue Jan 7 17:51:13 2025 +0000
+
+    Custom templates
+
+[33mcommit 82b9e65a80832067ec35b3a5942cb25da4484a0b[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Tue Jan 7 15:01:13 2025 +0000
+
+    added authentication
+
+[33mcommit 7388221a26a76df1d124dc90370a2a23c5e3a0d4[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Tue Jan 7 14:37:37 2025 +0000
+
+    code it yourself
+
+[33mcommit 28e39b8cb6a18c3c8f71b52a905d12793d4fd4fd[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Tue Jan 7 10:21:55 2025 +0000
+
+    added post_detail view
+
+[33mcommit 336f2783abc2e0218535be41e42d70b7d52cba36[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Tue Jan 7 09:32:08 2025 +0000
+
+    added post_detail view
+
+[33mcommit da077065492faf152cf359e83f1ce0501fbefc33[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Tue Jan 7 00:04:20 2025 +0000
+
+    What are static files
+
+[33mcommit 0ad3bd977949ec602599c991d9678a961a06a3cc[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 23:35:28 2025 +0000
+
+    add runtime
+
+[33mcommit 9efc0373cabe050c219bda06b9a022e9553eedc4[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 23:33:24 2025 +0000
+
+    add runtime
+
+[33mcommit acb0cddeb893e685048ba480a47deba9ce429a89[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 23:27:51 2025 +0000
+
+    add runtime
+
+[33mcommit da84bf6ab1037509caced482bfde6229bfaf30dd[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 23:14:36 2025 +0000
+
+    Pagination
+
+[33mcommit ee74afc25a93dc66f6d5d12fc0dcc3569e564825[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 22:56:24 2025 +0000
+
+    Variables and control structures
+
+[33mcommit 4b6608919a62526b660fdc6fbdcddbb703c5bdf7[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 16:36:52 2025 +0000
+
+    landing page fix
+
+[33mcommit 38d9218f273b7908925663cdec7531c37b32290c[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 12:23:24 2025 +0000
+
+    fix?
+
+[33mcommit d4ab9fef2e04f37787acc4ecfc8bb4668c890fd5[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 12:20:26 2025 +0000
+
+    fix?
+
+[33mcommit 8f624f239fc1079e22770d47b6e49ee2c27ec61e[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 12:16:40 2025 +0000
+
+    fix?
+
+[33mcommit d7260b576846714c0c66ce706925da95976abbf9[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 12:03:58 2025 +0000
+
+    fix?
+
+[33mcommit 1290c9962526ef2d10c206525e77482bb35385e9[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 12:03:41 2025 +0000
+
+    fix?
+
+[33mcommit 9dcd4cd7541c6b5b59350ab70cec0ab8e4614b17[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:41:20 2025 +0000
+
+    fix?
+
+[33mcommit d18dc7de677212e2c1953c9380a58f883fd3abe1[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:37:51 2025 +0000
+
+    fix gunicorn log file argument
+
+[33mcommit ce93e28cd1c055cdbb5923db242c6a9cb1080cc6[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:33:33 2025 +0000
+
+    fix gunicorn log file argument
+
+[33mcommit ca8db0e1889b5f45bd5c819885db07e95a6bfcb7[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:30:09 2025 +0000
+
+    fix gunicorn log file argument
+
+[33mcommit cbccf3b332f76a36c387c35a4a46954a2d5890ec[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:20:47 2025 +0000
+
+    fix
+
+[33mcommit d939d4a7a18b7171871e81bb8d0cacde3748cea0[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:17:09 2025 +0000
+
+    fix
+
+[33mcommit 4c4845c64cd004495abe6a6b46e6ccaa0e2c5c64[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:08:19 2025 +0000
+
+    fix
+
+[33mcommit 6141652355be4b9ab0a1ef8b5f8019ebaa677305[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Jan 6 10:03:38 2025 +0000
+
+    fix
+
+[33mcommit 771aded8a4310e24183f1f89374c2c46b5cfc570[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sun Jan 5 21:33:53 2025 +0000
+
+    rich text and reload
+
+[33mcommit 6788db2308282120a0a63894985a6b6b332c6069[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sun Jan 5 19:40:05 2025 +0000
+
+    added dataset fixture for testing
+
+[33mcommit 177ce1ef4ee3f02152c1ec86b82829787d9b67d5[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sun Jan 5 18:55:27 2025 +0000
+
+    installed Summernote and applied to admin posts
+
+[33mcommit 96cf9f919f742e4651841c5cada6844d173c038e[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sun Jan 5 15:23:55 2025 +0000
+
+    kpi views 1 complete
+
+[33mcommit d0c9ed8c8a1b47b630ea3aa7fd77bcd4b3de4b4d[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sun Jan 5 14:09:34 2025 +0000
+
+    Built home page with Django generic views
+
+[33mcommit 942ac3311cc0376b95ead5937ea77ffd68a0967c[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sun Jan 5 14:08:54 2025 +0000
+
+    Built home page with Django generic views
+
+[33mcommit aa5fc5e6271bf85453c43b22e809e8d75a19844d[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sun Jan 5 13:06:39 2025 +0000
+
+    fixed landing page
+
+[33mcommit fc44c2ce87637c83571f6726fe35ded1de8ae99d[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 22:53:38 2025 +0000
+
+    add migrations
+
+[33mcommit 933d51caa16a78c626dee81369eee3db67ef012a[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 17:45:20 2025 +0000
+
+    added comment model
+
+[33mcommit 323cb561860d3103945da8857941b7161201eace[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 14:55:17 2025 +0000
+
+    migration test
+
+[33mcommit 304d8b1ea677a044db859b9fff6215c1f72f9f64[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 14:48:36 2025 +0000
+
+    Configure static files for Heroku
+
+[33mcommit b527e785fc5e83bd833658f11ae470ac628a6d3c[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 12:16:20 2025 +0000
+
+    post model created
+
+[33mcommit f22e98ebe8a3414bae398386f972c4d7730bc6d7[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 12:09:59 2025 +0000
+
+    post model created
+
+[33mcommit 68cd99d6ef15d64b558544ac65534302557c91f4[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 12:08:33 2025 +0000
+
+    post model created
+
+[33mcommit eda1d1c608859c9f2a572f0fd1daacd518646ce4[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 11:54:45 2025 +0000
+
+    post model created
+
+[33mcommit 9cc32c9cb34acf8e066958666dd5c4a67c650126[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 11:50:59 2025 +0000
+
+    post model created
+
+[33mcommit 2f7a95804cd76311cccd6d0c1a71501e17941475[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 11:34:05 2025 +0000
+
+    post model created
+
+[33mcommit 7399dc725b9da00d3f0bace862cbcd3a98ca893a[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 11:33:36 2025 +0000
+
+    post model created
+
+[33mcommit dd708a425b2f2c0be0013c15c8e7aa3309c13158[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 11:04:30 2025 +0000
+
+    updated security
+
+[33mcommit a185600cdd482ada8fb3ff4b24fae97a3c646267[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 11:01:45 2025 +0000
+
+    updated security
+
+[33mcommit 86b921c4445d4d63c244cb908b0a58a1471a7272[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 10:41:07 2025 +0000
+
+    updated security
+
+[33mcommit 5a515194cd5596cda731baa8174672a64c6580bf[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 10:40:42 2025 +0000
+
+    updated security
+
+[33mcommit 49c4d61c5307dcf39220fe95a23e70e5e7fc3483[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 10:21:30 2025 +0000
+
+    deployment settings
+
+[33mcommit 47b78b7673f41407613c7a016347cde2ced09d8e[m
+Author: Nick O'Carroll <6e3u6ntg@students.codeinstitute.net>
+Date:   Sat Jan 4 09:46:55 2025 +0000
+
+    setup workspace
+
+[33mcommit 8440a70b3b219727240fa485eddf2a829e2e56e4[m
+Author: NickOcaz <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Dec 23 13:48:26 2024 +0000
+
+    Update issue templates
+
+[33mcommit 84d90954220b594d31e34efb4b8c5997c79f70ed[m
+Author: NickOcaz <6e3u6ntg@students.codeinstitute.net>
+Date:   Mon Dec 23 13:33:21 2024 +0000
+
+    Initial commit
